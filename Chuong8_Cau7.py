@@ -5,7 +5,6 @@ from tkinter import *
 root = Tk()
 root.title("Chuyển năm dương sang âm lịch")
 
-# Màu nền theo bài
 frame = Frame(root, bg="yellow", padx=20, pady=20)
 frame.pack(padx=10, pady=10)
 
@@ -20,8 +19,6 @@ result_label.grid(row=1, column=0, pady=10)
 result_value = Label(frame, text="", bg="yellow", font=("Arial", 12, "bold"))
 result_value.grid(row=1, column=1, pady=10)
 
-
-# Danh sách Can – Chi
 CAN = ["Giáp", "Ất", "Bính", "Đinh", "Mậu", "Kỷ", "Canh", "Tân", "Nhâm", "Quý"]
 CHI = ["Tý", "Sửu", "Dần", "Mão", "Thìn", "Tỵ", "Ngọ", "Mùi", "Thân", "Dậu", "Tuất", "Hợi"]
 

@@ -10,12 +10,12 @@ frame.pack()
 
 styles = ["raised", "sunken", "flat", "ridge", "groove", "solid"]
 
-# tạo 5 dòng ứng với borderwidth = 0 → 4
+
 for bw in range(5):
-    # cột 1: label borderwidth
+
     Label(frame, text=f"borderwidth = {bw}", width=18).grid(row=bw, column=0, padx=5, pady=5)
 
-    # các button style
+
     for i, st in enumerate(styles):
         btn = Button(frame,
                      text=st,
