@@ -3,12 +3,12 @@
 from tkinter import *
 
 root = Tk()
-root.title("Chuyển năm dương sang âm lịch")
+root.title("Chuyển độ F thành dộ C")
 
 frame = Frame(root, bg="yellow", padx=20, pady=20)
 frame.pack(padx=10, pady=10)
 
-Label(frame, text="Nhập năm dương:", bg="yellow", font=("Arial", 12)).grid(row=0, column=0, pady=5)
+Label(frame, text="Nhập đọ F:", bg="yellow", font=("Arial", 12)).grid(row=0, column=0, pady=5)
 
 entry_year = Entry(frame, font=("Arial", 12), width=12)
 entry_year.grid(row=0, column=1, pady=5, padx=10)
